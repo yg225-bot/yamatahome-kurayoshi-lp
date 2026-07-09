@@ -19,8 +19,37 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <header class="site-header" aria-label="ヤマタホーム">
+      <img
+        class="site-logo"
+        src="assets/yamata-logo.jpg"
+        alt="Yamata"
+        width="1685"
+        height="515"
+      >
+
+      <details class="site-menu">
+        <summary aria-label="メニューを開く">
+          <span></span>
+          <span></span>
+          <span></span>
+        </summary>
+        <nav class="site-menu-list" aria-label="ページ内メニュー">
+          <a href="#fv">トップ</a>
+          <a href="#consultation">相談できること</a>
+          <a href="#worries">お悩み</a>
+          <a href="#not-decided">まずは相談</a>
+          <a href="#details">相談内容</a>
+          <a href="#reasons">選ばれる理由</a>
+          <a href="#access">店舗情報</a>
+          <a href="#faq">よくある質問</a>
+          <a href="#cta">予約</a>
+        </nav>
+      </details>
+    </header>
+
     <main class="lp" aria-label="ヤマタホーム倉吉店 住まい相談LP">
-      <section class="lp-frame">
+      <section id="fv" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-01-fv.png"
@@ -33,7 +62,7 @@
         <a class="image-link image-link-01" href="https://forms.gle/edPyu3RFHTXApRQV9" aria-label="無料相談予約フォームを開く"></a>
       </section>
 
-      <section class="lp-frame">
+      <section id="consultation" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-02-consultation.png"
@@ -46,7 +75,7 @@
         <a class="image-link image-link-02" href="https://forms.gle/edPyu3RFHTXApRQV9" aria-label="無料相談予約フォームを開く"></a>
       </section>
 
-      <section class="lp-frame">
+      <section id="worries" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-03-worries.png"
@@ -58,7 +87,7 @@
         >
       </section>
 
-      <section class="lp-frame">
+      <section id="not-decided" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-04-not-decided.png"
@@ -71,7 +100,7 @@
         <a class="image-link image-link-04" href="https://forms.gle/edPyu3RFHTXApRQV9" aria-label="無料相談予約フォームを開く"></a>
       </section>
 
-      <section class="lp-frame">
+      <section id="details" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-05-details.png"
@@ -83,7 +112,7 @@
         >
       </section>
 
-      <section class="lp-frame">
+      <section id="reasons" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-06-reasons.png"
@@ -95,7 +124,7 @@
         >
       </section>
 
-      <section class="lp-frame">
+      <section id="access" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-07-access.png"
@@ -108,7 +137,7 @@
         <a class="image-link image-link-07" href="https://forms.gle/edPyu3RFHTXApRQV9" aria-label="無料相談予約フォームを開く"></a>
       </section>
 
-      <section class="lp-frame">
+      <section id="faq" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-08-faq.png"
@@ -120,7 +149,7 @@
         >
       </section>
 
-      <section class="lp-frame">
+      <section id="cta" class="lp-frame">
         <img
           class="lp-image"
           src="assets/lp-09-cta.png"
